@@ -20,7 +20,7 @@ public class FrogSimulation
        			position += hopDistance();
         		hopsLeft--;
     		}
-    		if(position> >= goalDistance){
+    		if(position > goalDistance || position == goalDistance){
 			return true;
 		}
 		return false;
